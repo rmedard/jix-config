@@ -1,0 +1,23 @@
+uuid: 34e1430e-0a18-447a-8076-883e02508afe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_sent2dwh
+    - node.type.job
+id: node.job.field_job_sent2dwh
+field_name: field_job_sent2dwh
+entity_type: node
+bundle: job
+label: 'Sent to Dwh'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

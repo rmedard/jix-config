@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      title: 'Questions fréquentes'
+  page_faq:
+    display_title: 'Page des questions fréquentes'
+    display_options:
+      menu:
+        title: Aide

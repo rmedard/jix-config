@@ -1,0 +1,18 @@
+uuid: 52415957-86f6-436d-8561-383ec9840c71
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sectors
+id: taxonomy_term.sectors.name
+field_name: name
+entity_type: taxonomy_term
+bundle: sectors
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

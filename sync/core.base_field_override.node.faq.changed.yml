@@ -1,0 +1,18 @@
+uuid: 9b8c5ad5-c7d6-4274-8de1-6c4bab29b713
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.faq
+id: node.faq.changed
+field_name: changed
+entity_type: node
+bundle: faq
+label: Modifié
+description: 'La date à laquelle le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

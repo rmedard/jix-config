@@ -1,0 +1,12 @@
+description: Actualités
+display:
+  default:
+    display_options:
+      title: Actualités
+  page_news_management:
+    display_title: 'Gestion des actualités'
+  page_news:
+    display_title: 'Page des actualités'
+    display_options:
+      menu:
+        title: Actualités

@@ -1,0 +1,20 @@
+uuid: 74313e1c-439e-482d-b2e8-1d156b1d46c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.career_experience
+  module:
+    - path
+id: taxonomy_term.career_experience.path
+field_name: path
+entity_type: taxonomy_term
+bundle: career_experience
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

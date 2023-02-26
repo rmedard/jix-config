@@ -1,0 +1,129 @@
+uuid: 07df84cc-c6b1-4666-92e4-0d3a66835c11
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.employer.field_employer_client_reference
+    - field.field.node.employer.field_employer_email
+    - field.field.node.employer.field_employer_facebook
+    - field.field.node.employer.field_employer_featured
+    - field.field.node.employer.field_employer_invoicing_policy
+    - field.field.node.employer.field_employer_linkedin
+    - field.field.node.employer.field_employer_logo
+    - field.field.node.employer.field_employer_public_service
+    - field.field.node.employer.field_employer_rating
+    - field.field.node.employer.field_employer_sector
+    - field.field.node.employer.field_employer_sent2dwh
+    - field.field.node.employer.field_employer_summary
+    - field.field.node.employer.field_employer_telephone
+    - field.field.node.employer.field_employer_tin_number
+    - field.field.node.employer.field_employer_twitter
+    - field.field.node.employer.field_employer_website
+    - image.style.medium
+    - node.type.employer
+  module:
+    - fivestar
+    - image
+    - link
+    - text
+    - user
+id: node.employer.full
+targetEntityType: node
+bundle: employer
+mode: full
+content:
+  field_employer_facebook:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_employer_linkedin:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_employer_logo:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: medium
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_employer_rating:
+    type: fivestar_stars
+    label: hidden
+    settings:
+      text_format: average
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_employer_sector:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_employer_summary:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_employer_twitter:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_employer_website:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: _blank
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  field_employer_client_reference: true
+  field_employer_email: true
+  field_employer_featured: true
+  field_employer_invoicing_policy: true
+  field_employer_public_service: true
+  field_employer_sent2dwh: true
+  field_employer_telephone: true
+  field_employer_tin_number: true
+  langcode: true
+  links: true
+  published_at: true

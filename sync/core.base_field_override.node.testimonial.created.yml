@@ -1,0 +1,18 @@
+uuid: ef45777a-a341-49ff-8a13-c3795b8e352b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.created
+field_name: created
+entity_type: node
+bundle: testimonial
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

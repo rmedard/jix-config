@@ -1,0 +1,34 @@
+uuid: 518746ce-d443-4604-aec3-783263c58838
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_banner_type
+field_name: field_banner_type
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: th
+      label: 'Top Hotizontal'
+    -
+      value: scs
+      label: 'Single Column Sidebar'
+    -
+      value: dcs
+      label: 'Double Column Sidebar'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

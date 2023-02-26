@@ -1,0 +1,23 @@
+uuid: 2e43d7d2-2316-4fe0-816f-56f9f4d4318d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_posting_plan
+    - node.type.job
+  module:
+    - options
+id: node.job.field_job_posting_plan
+field_name: field_job_posting_plan
+entity_type: node
+bundle: job
+label: 'Posting plan'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: featured
+default_value_callback: ''
+settings: {  }
+field_type: list_string

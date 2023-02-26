@@ -1,0 +1,25 @@
+uuid: 73320157-c762-49b4-92ea-2e466c038de6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_block:2761ac74-6fd8-4411-b1ac-a9d3f88ba730'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: topbanner
+theme: jix_core_theme
+region: top_header_form
+weight: 0
+provider: null
+plugin: 'block_content:2761ac74-6fd8-4411-b1ac-a9d3f88ba730'
+settings:
+  id: 'block_content:2761ac74-6fd8-4411-b1ac-a9d3f88ba730'
+  label: 'Top Banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

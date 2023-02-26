@@ -1,0 +1,35 @@
+display:
+  default:
+    display_options:
+      title: 'Les offres d''emploi'
+      exposed_form:
+        options:
+          submit_button: Rechercher
+      fields:
+        nothing:
+          alter:
+            text: "{{ title_1 }} | <i class=\"fas fa-map-marker-alt\"></i> {{ field_job_city }} | Publié le {{ published_at }} | Postuler avant {{ field_job_application_deadline }}<br/>\r\n{% if field_job_desired_experience is not empty %}\r\n  {{ field_job_desired_experience }}<br/>\r\n{% endif %}\r\n{% if field_job_offer_type  == 'job'%}\r\n  <span class=\"badge badge-primary\">{{ field_job_offer_type_1 }}</span>\r\n{% elseif field_job_offer_type == 'tender' %}\r\n  <span class=\"badge badge-light\">{{ field_job_offer_type_1 }}</span>\r\n{% elseif field_job_offer_type == 'internship' %}\r\n  <span class=\"badge badge-warning\">{{ field_job_offer_type_1 }}</span>\r\n{% elseif field_job_offer_type == 'consultancy' %}\r\n  <span class=\"badge badge-success\">{{ field_job_offer_type_1 }}</span>\r\n{% elseif field_job_offer_type == 'other' %}\r\n  <span class=\"badge badge-info\">{{ field_job_offer_type_1 }}</span>\r\n{% endif %}"
+  page_consultancies:
+    display_options:
+      menu:
+        title: Consultance
+  page_featured:
+    display_options:
+      menu:
+        title: 'A la une'
+  page_internships:
+    display_options:
+      menu:
+        title: Stages
+  page_other_adverts:
+    display_options:
+      menu:
+        title: Autres
+  page_public_adverts:
+    display_options:
+      menu:
+        title: Publique
+  page_tenders:
+    display_options:
+      menu:
+        title: 'Appels d''offre'

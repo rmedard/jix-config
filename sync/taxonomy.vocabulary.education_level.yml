@@ -1,0 +1,8 @@
+uuid: 924e2375-5a58-4ccd-8167-05dfe022b0b6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Education level'
+vid: education_level
+description: ''
+weight: 0

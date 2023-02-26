@@ -1,0 +1,76 @@
+uuid: 29bfd215-06bf-45cb-9f68-f68ca0022f2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pricing_plan.field_job_posting_plan
+    - field.field.node.pricing_plan.field_pricing_plan_advantage
+    - field.field.node.pricing_plan.field_pricing_plan_button
+    - field.field.node.pricing_plan.field_pricing_plan_order_number
+    - field.field.node.pricing_plan.field_pricing_plan_pricing
+    - node.type.pricing_plan
+  module:
+    - text
+id: node.pricing_plan.default
+targetEntityType: node
+bundle: pricing_plan
+mode: default
+content:
+  field_job_posting_plan:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_pricing_plan_advantage:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pricing_plan_button:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_pricing_plan_order_number:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_pricing_plan_pricing:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  published_at: true
+  sticky: true
+  uid: true

@@ -1,0 +1,24 @@
+uuid: 4c2492de-9a15-48c0-89aa-9fba6d31d297
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: basic_page_pattern
+label: 'Basic Page Pattern'
+type: 'canonical_entities:node'
+pattern: 'page/[node:title]'
+selection_criteria:
+  bff5a1ca-d82c-4ae5-bc4d-4477b0b65f21:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: bff5a1ca-d82c-4ae5-bc4d-4477b0b65f21
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships:
+  'node:langcode:language':
+    label: Langue

@@ -1,0 +1,22 @@
+uuid: 932c91c6-6e49-4f6b-942e-21b827c63f27
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+id: node.pricing_plan.status
+field_name: status
+entity_type: node
+bundle: pricing_plan
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

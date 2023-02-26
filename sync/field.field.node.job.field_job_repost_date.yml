@@ -1,0 +1,24 @@
+uuid: 557b9066-9a33-453b-b54d-5f5219acb0d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_repost_date
+    - node.type.job
+  module:
+    - datetime
+id: node.job.field_job_repost_date
+field_name: field_job_repost_date
+entity_type: node
+bundle: job
+label: 'Re-post date'
+description: 'To repost this job, set the activation date to today''s date. The job will then appears on top of the featured list.'
+required: false
+translatable: true
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

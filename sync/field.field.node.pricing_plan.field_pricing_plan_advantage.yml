@@ -1,0 +1,21 @@
+uuid: fc53e9a9-0cd8-4c76-94f6-f0e43fc48a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pricing_plan_advantage
+    - node.type.pricing_plan
+  module:
+    - text
+id: node.pricing_plan.field_pricing_plan_advantage
+field_name: field_pricing_plan_advantage
+entity_type: node
+bundle: pricing_plan
+label: Advantages
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

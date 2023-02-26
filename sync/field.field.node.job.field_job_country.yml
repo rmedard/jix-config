@@ -1,0 +1,24 @@
+uuid: 68c95ab9-686e-4a80-a544-964200a7037e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_country
+    - node.type.job
+  module:
+    - country
+id: node.job.field_job_country
+field_name: field_job_country
+entity_type: node
+bundle: job
+label: Country
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: RW
+default_value_callback: ''
+settings:
+  selectable_countries: {  }
+field_type: country

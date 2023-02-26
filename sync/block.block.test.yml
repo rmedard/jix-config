@@ -1,0 +1,25 @@
+uuid: 1422d24d-8356-4cfb-a447-3ea32504c54a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:013ff98b-6e76-4083-b952-d58808e8fe6d'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: test
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -12
+provider: null
+plugin: 'block_content:013ff98b-6e76-4083-b952-d58808e8fe6d'
+settings:
+  id: 'block_content:013ff98b-6e76-4083-b952-d58808e8fe6d'
+  label: Test
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

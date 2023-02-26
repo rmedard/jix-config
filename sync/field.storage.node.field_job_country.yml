@@ -1,0 +1,24 @@
+uuid: e1622f9b-5a69-4719-8c03-e45223a1babb
+langcode: en
+status: true
+dependencies:
+  module:
+    - country
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_job_country
+field_name: field_job_country
+entity_type: node
+type: country
+settings:
+  selectable_countries: {  }
+module: country
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

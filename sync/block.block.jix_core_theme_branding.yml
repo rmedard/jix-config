@@ -1,0 +1,25 @@
+uuid: c3e8e9f4-5b6b-4375-ae5b-d3ff17fda066
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jix_core_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: jix_core_theme_branding
+theme: jix_core_theme
+region: top_header
+weight: -12
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

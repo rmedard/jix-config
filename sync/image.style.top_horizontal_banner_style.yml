@@ -1,0 +1,15 @@
+uuid: d3cfc5f0-5e5b-4289-a8bb-4d64731b13b1
+langcode: en
+status: true
+dependencies: {  }
+name: top_horizontal_banner_style
+label: 'Top Horizontal Banner Style'
+effects:
+  e8305a26-8adc-4b78-9b89-6882137d028a:
+    uuid: e8305a26-8adc-4b78-9b89-6882137d028a
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 100
+      upscale: true

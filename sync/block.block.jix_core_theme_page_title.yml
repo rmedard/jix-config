@@ -1,0 +1,31 @@
+uuid: f5d0f41c-93b8-433e-8d7f-5ff9819d8411
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - jix_core_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: jix_core_theme_page_title
+theme: jix_core_theme
+region: content
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      employer: employer
+      job: job
+      news: news

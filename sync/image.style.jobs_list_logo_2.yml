@@ -1,0 +1,15 @@
+uuid: 8bfbd6bb-5663-416d-bba0-4019b7e0a85c
+langcode: en
+status: true
+dependencies: {  }
+name: jobs_list_logo_2
+label: 'Jobs List Logo 2'
+effects:
+  377ccf3c-8ba4-4d4b-8410-b2c7d78938b8:
+    uuid: 377ccf3c-8ba4-4d4b-8410-b2c7d78938b8
+    id: image_scale
+    weight: 1
+    data:
+      width: 90
+      height: null
+      upscale: true

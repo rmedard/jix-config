@@ -1,0 +1,267 @@
+uuid: 58f5e9d4-903b-48ae-a50d-deffd55bb92b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.employer
+id: node--employer
+disabled: false
+path: employers
+resourceType: employers
+resourceFields:
+  nid:
+    disabled: false
+    fieldName: nid
+    publicName: nid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  vid:
+    disabled: true
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  revision_timestamp:
+    disabled: true
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+  revision_uid:
+    disabled: true
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: true
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  title:
+    disabled: false
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  promote:
+    disabled: true
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+  sticky:
+    disabled: true
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: true
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: true
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: true
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  path:
+    disabled: false
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+  menu_link:
+    disabled: true
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+  content_translation_source:
+    disabled: false
+    fieldName: content_translation_source
+    publicName: content_translation_source
+    enhancer:
+      id: ''
+  content_translation_outdated:
+    disabled: false
+    fieldName: content_translation_outdated
+    publicName: content_translation_outdated
+    enhancer:
+      id: ''
+  published_at:
+    disabled: false
+    fieldName: published_at
+    publicName: published_at
+    enhancer:
+      id: ''
+  alias_url:
+    disabled: false
+    fieldName: alias_url
+    publicName: alias_url
+    enhancer:
+      id: ''
+  field_employer_client_reference:
+    disabled: false
+    fieldName: field_employer_client_reference
+    publicName: field_employer_client_reference
+    enhancer:
+      id: ''
+  field_employer_email:
+    disabled: false
+    fieldName: field_employer_email
+    publicName: field_employer_email
+    enhancer:
+      id: ''
+  field_employer_facebook:
+    disabled: false
+    fieldName: field_employer_facebook
+    publicName: field_employer_facebook
+    enhancer:
+      id: nested
+      settings:
+        path: uri
+  field_employer_featured:
+    disabled: false
+    fieldName: field_employer_featured
+    publicName: field_employer_featured
+    enhancer:
+      id: ''
+  field_employer_linkedin:
+    disabled: false
+    fieldName: field_employer_linkedin
+    publicName: field_employer_linkedin
+    enhancer:
+      id: nested
+      settings:
+        path: uri
+  field_employer_logo:
+    disabled: false
+    fieldName: field_employer_logo
+    publicName: field_employer_logo
+    enhancer:
+      id: ''
+  field_employer_public_service:
+    disabled: false
+    fieldName: field_employer_public_service
+    publicName: field_employer_public_service
+    enhancer:
+      id: ''
+  field_employer_rating:
+    disabled: false
+    fieldName: field_employer_rating
+    publicName: field_employer_rating
+    enhancer:
+      id: ''
+  field_employer_sector:
+    disabled: false
+    fieldName: field_employer_sector
+    publicName: field_employer_sector
+    enhancer:
+      id: ''
+  field_employer_sent2dwh:
+    disabled: false
+    fieldName: field_employer_sent2dwh
+    publicName: field_employer_sent2dwh
+    enhancer:
+      id: ''
+  field_employer_summary:
+    disabled: false
+    fieldName: field_employer_summary
+    publicName: field_employer_summary
+    enhancer:
+      id: nested
+      settings:
+        path: value
+  field_employer_telephone:
+    disabled: false
+    fieldName: field_employer_telephone
+    publicName: field_employer_telephone
+    enhancer:
+      id: ''
+  field_employer_tin_number:
+    disabled: false
+    fieldName: field_employer_tin_number
+    publicName: field_employer_tin_number
+    enhancer:
+      id: ''
+  field_employer_twitter:
+    disabled: false
+    fieldName: field_employer_twitter
+    publicName: field_employer_twitter
+    enhancer:
+      id: nested
+      settings:
+        path: uri
+  field_employer_website:
+    disabled: false
+    fieldName: field_employer_website
+    publicName: field_employer_website
+    enhancer:
+      id: nested
+      settings:
+        path: uri
+  field_old_nid:
+    disabled: true
+    fieldName: field_old_nid
+    publicName: field_old_nid
+    enhancer:
+      id: ''
+  field_employer_logo__computed:
+    disabled: false
+    fieldName: field_employer_logo__computed
+    publicName: field_employer_logo__computed
+    enhancer:
+      id: ''

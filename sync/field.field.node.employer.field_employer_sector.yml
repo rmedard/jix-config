@@ -1,0 +1,29 @@
+uuid: d25c1b4c-9c3f-4df7-a81e-b0de7f66232d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_sector
+    - node.type.employer
+    - taxonomy.vocabulary.category
+id: node.employer.field_employer_sector
+field_name: field_employer_sector
+entity_type: node
+bundle: employer
+label: Sector
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 05cca55b-98fb-473f-b2d1-d1bf90f35e62
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_level
+id: taxonomy_term.education_level.status
+field_name: status
+entity_type: taxonomy_term
+bundle: education_level
+label: Publié
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

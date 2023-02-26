@@ -1,0 +1,21 @@
+uuid: dd706a78-db59-43d1-98b6-c867e874faf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_posting_plan
+    - node.type.pricing_plan
+  module:
+    - options
+id: node.pricing_plan.field_job_posting_plan
+field_name: field_job_posting_plan
+entity_type: node
+bundle: pricing_plan
+label: 'Posting plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

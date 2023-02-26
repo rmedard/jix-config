@@ -1,0 +1,25 @@
+uuid: 78d81a61-bb92-47b5-831a-384047231294
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:d2128433-1aa6-4630-a3f5-043b23f761e9'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: houseinrwanda
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -10
+provider: null
+plugin: 'block_content:d2128433-1aa6-4630-a3f5-043b23f761e9'
+settings:
+  id: 'block_content:d2128433-1aa6-4630-a3f5-043b23f761e9'
+  label: Houseinrwanda
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

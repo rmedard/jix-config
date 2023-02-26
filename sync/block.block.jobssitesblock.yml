@@ -1,0 +1,20 @@
+uuid: 981d4819-9543-4d3f-bfb8-7f7c2d2a269a
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+  theme:
+    - jix_core_theme
+id: jobssitesblock
+theme: jix_core_theme
+region: footer_third
+weight: 0
+provider: null
+plugin: jobs_sites_block
+settings:
+  id: jobs_sites_block
+  label: 'Jobs Sites block'
+  label_display: '0'
+  provider: jix_interface
+visibility: {  }

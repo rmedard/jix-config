@@ -1,0 +1,20 @@
+uuid: 9a7ccdcd-31e0-4fcd-9e81-44fee9391287
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_level
+  module:
+    - text
+id: taxonomy_term.education_level.description
+field_name: description
+entity_type: taxonomy_term
+bundle: education_level
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

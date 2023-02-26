@@ -1,0 +1,23 @@
+uuid: fa9b7699-b24a-4877-9fd1-80f788666fe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_how_to_apply
+    - node.type.job
+  module:
+    - options
+id: node.job.field_job_how_to_apply
+field_name: field_job_how_to_apply
+entity_type: node
+bundle: job
+label: 'How to apply'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: email
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: 055ffa49-ab88-4a77-b780-3b212695fb74
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+id: node.pricing_plan.uid
+field_name: uid
+entity_type: node
+bundle: pricing_plan
+label: 'Écrit par'
+description: 'Le nom d''utilisateur de l''auteur du contenu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

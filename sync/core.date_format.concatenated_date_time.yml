@@ -1,0 +1,8 @@
+uuid: d644c3cb-f4a6-47a4-ae4c-5b1ca5953774
+langcode: en
+status: true
+dependencies: {  }
+id: concatenated_date_time
+label: 'Concatenated Date time'
+locked: false
+pattern: YmdHis

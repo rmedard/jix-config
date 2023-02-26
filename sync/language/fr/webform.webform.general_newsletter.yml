@@ -1,0 +1,9 @@
+elements: |
+  gen_news_noms:
+    '#title': Noms
+    '#required_error': 'Votre nom est obligatoire'
+  gen_news_email:
+    '#required_error': 'Votre email est obligatoire'
+    '#unique_error': 'Vous êtes déjà inscrit'
+  actions:
+    '#submit__label': 'S''inscrire'

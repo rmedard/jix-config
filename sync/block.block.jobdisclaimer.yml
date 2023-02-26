@@ -1,0 +1,33 @@
+uuid: 235eef28-920c-4a01-b04f-dd2e2366c29d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:13aa88c7-7365-45a8-9921-9a42a03842c4'
+  module:
+    - block_content
+    - node
+  theme:
+    - jix_core_theme
+id: jobdisclaimer
+theme: jix_core_theme
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:13aa88c7-7365-45a8-9921-9a42a03842c4'
+settings:
+  id: 'block_content:13aa88c7-7365-45a8-9921-9a42a03842c4'
+  label: 'Job Disclaimer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      job: job

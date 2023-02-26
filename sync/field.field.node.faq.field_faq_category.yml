@@ -1,0 +1,23 @@
+uuid: e1d6670e-b3ab-474f-9b9e-5a00d5417ade
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faq_category
+    - node.type.faq
+  module:
+    - options
+id: node.faq.field_faq_category
+field_name: field_faq_category
+entity_type: node
+bundle: faq
+label: Category
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: job_seekers
+default_value_callback: ''
+settings: {  }
+field_type: list_string

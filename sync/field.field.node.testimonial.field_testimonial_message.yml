@@ -1,0 +1,21 @@
+uuid: 47004cbc-a824-41d7-911b-5c23c6ad9f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimonial_message
+    - node.type.testimonial
+  module:
+    - text
+id: node.testimonial.field_testimonial_message
+field_name: field_testimonial_message
+entity_type: node
+bundle: testimonial
+label: Message
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,20 @@
+uuid: 379c237d-70fa-48d6-bd68-fa3c380aa796
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+  module:
+    - path
+id: node.testimonial.path
+field_name: path
+entity_type: node
+bundle: testimonial
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

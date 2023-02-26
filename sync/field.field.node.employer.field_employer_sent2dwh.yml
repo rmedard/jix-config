@@ -1,0 +1,23 @@
+uuid: b9122d3b-6e87-430a-aac7-ed670c1cfd0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_sent2dwh
+    - node.type.employer
+id: node.employer.field_employer_sent2dwh
+field_name: field_employer_sent2dwh
+entity_type: node
+bundle: employer
+label: 'Sent to Dwh'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

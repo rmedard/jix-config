@@ -1,0 +1,33 @@
+uuid: 6fc24589-8155-4ba0-8e2d-0f4d58165d1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.jobs_display
+  module:
+    - node
+    - views
+  theme:
+    - jix_core_theme
+id: views_block__jobs_display_block_jobs_per_employer
+theme: jix_core_theme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:jobs_display-block_jobs_per_employer'
+settings:
+  id: 'views_block:jobs_display-block_jobs_per_employer'
+  label: 'Job offers'
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: 'Job offers'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      employer: employer

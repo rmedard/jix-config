@@ -1,0 +1,22 @@
+uuid: 70dc0d25-5426-4860-bb72-e070e6123c02
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.employer
+id: node.employer.sticky
+field_name: sticky
+entity_type: node
+bundle: employer
+label: 'Epinglé en haut des listes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 168c47d1-aa4c-4874-83c8-a0f5dc2f257c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.status
+field_name: status
+entity_type: node
+bundle: testimonial
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: bd7caee5-4ff8-4a00-8b16-95e9cc3a165c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.changed
+field_name: changed
+entity_type: node
+bundle: testimonial
+label: Modifié
+description: 'La date à laquelle le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

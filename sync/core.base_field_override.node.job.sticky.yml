@@ -1,0 +1,22 @@
+uuid: c8b8d368-8322-4634-9003-44a6f3476f88
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.job
+id: node.job.sticky
+field_name: sticky
+entity_type: node
+bundle: job
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

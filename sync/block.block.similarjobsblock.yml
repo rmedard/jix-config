@@ -1,0 +1,28 @@
+uuid: 8e9fb0cc-2021-4edc-8be3-d6d45bd11ab2
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+    - node
+  theme:
+    - jix_core_theme
+id: similarjobsblock
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -15
+provider: null
+plugin: similar_jobs_block
+settings:
+  id: similar_jobs_block
+  label: 'Similar Jobs block'
+  label_display: '0'
+  provider: jix_interface
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      job: job

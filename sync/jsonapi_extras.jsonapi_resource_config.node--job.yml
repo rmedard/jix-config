@@ -1,0 +1,315 @@
+uuid: 7e0d1b34-9181-4913-80d2-d623fb2eacb1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.job
+id: node--job
+disabled: false
+path: jobs
+resourceType: jobs
+resourceFields:
+  nid:
+    disabled: false
+    fieldName: nid
+    publicName: nid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  vid:
+    disabled: true
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  revision_timestamp:
+    disabled: true
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+  revision_uid:
+    disabled: true
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: true
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  title:
+    disabled: false
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  promote:
+    disabled: true
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+  sticky:
+    disabled: true
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: true
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: true
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: true
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  path:
+    disabled: false
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+  menu_link:
+    disabled: true
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+  content_translation_source:
+    disabled: true
+    fieldName: content_translation_source
+    publicName: content_translation_source
+    enhancer:
+      id: ''
+  content_translation_outdated:
+    disabled: true
+    fieldName: content_translation_outdated
+    publicName: content_translation_outdated
+    enhancer:
+      id: ''
+  published_at:
+    disabled: false
+    fieldName: published_at
+    publicName: published_at
+    enhancer:
+      id: ''
+  alias_url:
+    disabled: false
+    fieldName: alias_url
+    publicName: alias_url
+    enhancer:
+      id: ''
+  field_job_additional_email:
+    disabled: false
+    fieldName: field_job_additional_email
+    publicName: field_job_additional_email
+    enhancer:
+      id: ''
+  field_job_application_deadline:
+    disabled: false
+    fieldName: field_job_application_deadline
+    publicName: field_job_application_deadline
+    enhancer:
+      id: ''
+  field_job_application_email:
+    disabled: false
+    fieldName: field_job_application_email
+    publicName: field_job_application_email
+    enhancer:
+      id: ''
+  field_job_attachment:
+    disabled: false
+    fieldName: field_job_attachment
+    publicName: field_job_attachment
+    enhancer:
+      id: ''
+  field_job_category:
+    disabled: false
+    fieldName: field_job_category
+    publicName: field_job_category
+    enhancer:
+      id: ''
+  field_job_city:
+    disabled: false
+    fieldName: field_job_city
+    publicName: field_job_city
+    enhancer:
+      id: ''
+  field_job_contact_email:
+    disabled: false
+    fieldName: field_job_contact_email
+    publicName: field_job_contact_email
+    enhancer:
+      id: ''
+  field_job_contact_name:
+    disabled: false
+    fieldName: field_job_contact_name
+    publicName: field_job_contact_name
+    enhancer:
+      id: ''
+  field_job_contact_phone:
+    disabled: false
+    fieldName: field_job_contact_phone
+    publicName: field_job_contact_phone
+    enhancer:
+      id: ''
+  field_job_contract_type:
+    disabled: false
+    fieldName: field_job_contract_type
+    publicName: field_job_contract_type
+    enhancer:
+      id: ''
+  field_job_country:
+    disabled: false
+    fieldName: field_job_country
+    publicName: field_job_country
+    enhancer:
+      id: ''
+  field_job_creator_location:
+    disabled: false
+    fieldName: field_job_creator_location
+    publicName: field_job_creator_location
+    enhancer:
+      id: ''
+  field_job_desired_experience:
+    disabled: false
+    fieldName: field_job_desired_experience
+    publicName: field_job_desired_experience
+    enhancer:
+      id: ''
+  field_job_education_level:
+    disabled: false
+    fieldName: field_job_education_level
+    publicName: field_job_education_level
+    enhancer:
+      id: ''
+  field_job_employer:
+    disabled: false
+    fieldName: field_job_employer
+    publicName: field_job_employer
+    enhancer:
+      id: ''
+  field_job_ext_application_link:
+    disabled: false
+    fieldName: field_job_ext_application_link
+    publicName: field_job_ext_application_link
+    enhancer:
+      id: nested
+      settings:
+        path: uri
+  field_job_full_description:
+    disabled: false
+    fieldName: field_job_full_description
+    publicName: field_job_full_description
+    enhancer:
+      id: nested
+      settings:
+        path: value
+  field_job_how_to_apply:
+    disabled: false
+    fieldName: field_job_how_to_apply
+    publicName: field_job_how_to_apply
+    enhancer:
+      id: ''
+  field_job_invoice_reference:
+    disabled: false
+    fieldName: field_job_invoice_reference
+    publicName: field_job_invoice_reference
+    enhancer:
+      id: ''
+  field_job_number_of_positions:
+    disabled: false
+    fieldName: field_job_number_of_positions
+    publicName: field_job_number_of_positions
+    enhancer:
+      id: ''
+  field_job_offer_type:
+    disabled: false
+    fieldName: field_job_offer_type
+    publicName: field_job_offer_type
+    enhancer:
+      id: ''
+  field_job_posting_plan:
+    disabled: false
+    fieldName: field_job_posting_plan
+    publicName: field_job_posting_plan
+    enhancer:
+      id: ''
+  field_job_repost_date:
+    disabled: false
+    fieldName: field_job_repost_date
+    publicName: field_job_repost_date
+    enhancer:
+      id: ''
+  field_job_sent2dwh:
+    disabled: false
+    fieldName: field_job_sent2dwh
+    publicName: field_job_sent2dwh
+    enhancer:
+      id: ''
+  field_job_sent_in_sms:
+    disabled: false
+    fieldName: field_job_sent_in_sms
+    publicName: field_job_sent_in_sms
+    enhancer:
+      id: ''
+  field_job_super_featured:
+    disabled: false
+    fieldName: field_job_super_featured
+    publicName: field_job_super_featured
+    enhancer:
+      id: ''

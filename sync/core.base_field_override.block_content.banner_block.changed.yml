@@ -1,0 +1,18 @@
+uuid: 9fd01c36-29ee-4e42-8fe9-8e0b40245b7e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+id: block_content.banner_block.changed
+field_name: changed
+entity_type: block_content
+bundle: banner_block
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

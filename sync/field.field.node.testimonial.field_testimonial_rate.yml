@@ -1,0 +1,32 @@
+uuid: d2be973d-2ff6-4dd6-be4b-93049d127657
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimonial_rate
+    - node.type.testimonial
+  module:
+    - fivestar
+id: node.testimonial.field_testimonial_rate
+field_name: field_testimonial_rate
+entity_type: node
+bundle: testimonial
+label: 'Rate our site'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    rating: 100
+    target: null
+default_value_callback: ''
+settings:
+  stars: 5
+  allow_clear: false
+  allow_revote: true
+  allow_ownvote: true
+  rated_while: editing
+  enable_voting_target: false
+  target_bridge_field: ''
+  target_fivestar_field: ''
+field_type: fivestar

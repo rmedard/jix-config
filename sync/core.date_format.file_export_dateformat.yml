@@ -1,0 +1,8 @@
+uuid: e3af6943-7a92-4554-9681-4534e4d96207
+langcode: zxx
+status: true
+dependencies: {  }
+id: file_export_dateformat
+label: 'File Export Dateformat'
+locked: false
+pattern: dmY_His

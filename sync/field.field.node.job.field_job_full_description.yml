@@ -1,0 +1,21 @@
+uuid: fbc5862c-5e00-481f-b02c-0108c8854c0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_full_description
+    - node.type.job
+  module:
+    - text
+id: node.job.field_job_full_description
+field_name: field_job_full_description
+entity_type: node
+bundle: job
+label: 'Full description'
+description: 'To allow faster publication, copy & paste from your word document'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

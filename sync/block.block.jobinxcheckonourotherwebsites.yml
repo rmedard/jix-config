@@ -1,0 +1,25 @@
+uuid: f49cc9a0-7924-4110-b147-9dc41d538ccf
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:6be3b880-0b13-4e22-88b2-8b4e6bef7fed'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: jobinxcheckonourotherwebsites
+theme: jix_core_theme
+region: sidebar_first
+weight: -17
+provider: null
+plugin: 'block_content:6be3b880-0b13-4e22-88b2-8b4e6bef7fed'
+settings:
+  id: 'block_content:6be3b880-0b13-4e22-88b2-8b4e6bef7fed'
+  label: 'Job In X - Check on our other websites'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

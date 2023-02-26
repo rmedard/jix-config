@@ -1,0 +1,25 @@
+uuid: 4d67e621-6e42-4f3a-b4fb-95b9c528b7f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.general_newsletter
+  module:
+    - webform
+  theme:
+    - jix_core_theme
+id: webform
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -18
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Subscribe to our newsletter'
+  label_display: visible
+  provider: webform
+  webform_id: general_newsletter
+  default_data: ''
+  redirect: false
+visibility: {  }

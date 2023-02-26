@@ -1,0 +1,135 @@
+uuid: c7a2f770-2616-4482-9eee-590dbf9a8d63
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.job.field_job_additional_email
+    - field.field.node.job.field_job_application_deadline
+    - field.field.node.job.field_job_application_email
+    - field.field.node.job.field_job_attachment
+    - field.field.node.job.field_job_category
+    - field.field.node.job.field_job_city
+    - field.field.node.job.field_job_contact_email
+    - field.field.node.job.field_job_contact_name
+    - field.field.node.job.field_job_contact_phone
+    - field.field.node.job.field_job_contract_type
+    - field.field.node.job.field_job_country
+    - field.field.node.job.field_job_creator_location
+    - field.field.node.job.field_job_desired_experience
+    - field.field.node.job.field_job_education_level
+    - field.field.node.job.field_job_employer
+    - field.field.node.job.field_job_ext_application_link
+    - field.field.node.job.field_job_full_description
+    - field.field.node.job.field_job_how_to_apply
+    - field.field.node.job.field_job_invoice_reference
+    - field.field.node.job.field_job_number_of_positions
+    - field.field.node.job.field_job_offer_type
+    - field.field.node.job.field_job_old_nid
+    - field.field.node.job.field_job_posting_plan
+    - field.field.node.job.field_job_repost_date
+    - field.field.node.job.field_job_sent2dwh
+    - field.field.node.job.field_job_sent_in_sms
+    - field.field.node.job.field_job_super_featured
+    - node.type.job
+  module:
+    - datetime
+    - options
+    - user
+id: node.job.teaser
+targetEntityType: node
+bundle: job
+mode: teaser
+content:
+  field_job_application_deadline:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: french_short_date
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_job_city:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_job_contract_type:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_job_desired_experience:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_job_employer:
+    type: entity_reference_entity_view
+    label: inline
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_job_offer_type:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_job_super_featured:
+    type: boolean
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  published_at:
+    type: timestamp
+    label: inline
+    settings:
+      date_format: french_short_date
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+hidden:
+  addtoany: true
+  field_job_additional_email: true
+  field_job_application_email: true
+  field_job_attachment: true
+  field_job_category: true
+  field_job_contact_email: true
+  field_job_contact_name: true
+  field_job_contact_phone: true
+  field_job_country: true
+  field_job_creator_location: true
+  field_job_education_level: true
+  field_job_ext_application_link: true
+  field_job_full_description: true
+  field_job_how_to_apply: true
+  field_job_invoice_reference: true
+  field_job_number_of_positions: true
+  field_job_old_nid: true
+  field_job_posting_plan: true
+  field_job_repost_date: true
+  field_job_sent2dwh: true
+  field_job_sent_in_sms: true
+  langcode: true
+  links: true

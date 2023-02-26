@@ -1,0 +1,29 @@
+uuid: ada8b5d0-4d9b-4ab2-a0a6-b9fd13c2e59e
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.employer_per_job
+    - field.field.node.pricing_plan.field_job_posting_plan
+    - field.field.node.pricing_plan.field_pricing_plan_advantage
+    - field.field.node.pricing_plan.field_pricing_plan_button
+    - field.field.node.pricing_plan.field_pricing_plan_order_number
+    - field.field.node.pricing_plan.field_pricing_plan_pricing
+    - node.type.pricing_plan
+  module:
+    - user
+id: node.pricing_plan.employer_per_job
+targetEntityType: node
+bundle: pricing_plan
+mode: employer_per_job
+content: {  }
+hidden:
+  addtoany: true
+  field_job_posting_plan: true
+  field_pricing_plan_advantage: true
+  field_pricing_plan_button: true
+  field_pricing_plan_order_number: true
+  field_pricing_plan_pricing: true
+  langcode: true
+  links: true
+  published_at: true

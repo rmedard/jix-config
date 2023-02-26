@@ -1,0 +1,43 @@
+uuid: 435c87fd-63de-4801-9458-fac62a1cc8a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.pricing_plan.field_job_posting_plan
+    - field.field.node.pricing_plan.field_pricing_plan_advantage
+    - field.field.node.pricing_plan.field_pricing_plan_button
+    - field.field.node.pricing_plan.field_pricing_plan_order_number
+    - field.field.node.pricing_plan.field_pricing_plan_pricing
+    - node.type.pricing_plan
+  module:
+    - text
+    - user
+id: node.pricing_plan.full
+targetEntityType: node
+bundle: pricing_plan
+mode: full
+content:
+  field_pricing_plan_advantage:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pricing_plan_pricing:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  field_job_posting_plan: true
+  field_pricing_plan_button: true
+  field_pricing_plan_order_number: true
+  langcode: true
+  links: true
+  published_at: true

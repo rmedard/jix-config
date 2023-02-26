@@ -1,0 +1,22 @@
+uuid: 86ff5307-feb5-4106-806d-dbe0d98bfc5a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.sticky
+field_name: sticky
+entity_type: node
+bundle: testimonial
+label: 'Epinglé en haut des listes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,15 @@
+uuid: 36c984a1-1a6d-4421-bd80-92ac8933ab6e
+langcode: en
+status: true
+dependencies: {  }
+name: vertical_single_column_banner_style
+label: 'Vertical Single Column Banner Style'
+effects:
+  03f0f0e2-ced3-47d3-8c50-f628b9e9cb7a:
+    uuid: 03f0f0e2-ced3-47d3-8c50-f628b9e9cb7a
+    id: image_scale
+    weight: 1
+    data:
+      width: 165
+      height: null
+      upscale: true

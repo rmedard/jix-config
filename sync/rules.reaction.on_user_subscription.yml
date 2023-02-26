@@ -1,0 +1,39 @@
+uuid: 43c066ba-d936-4103-a14e-b6a519112743
+langcode: en
+status: false
+dependencies: {  }
+id: on_user_subscription
+label: 'On user subscription'
+events:
+  -
+    event_name: 'rules_entity_insert:webform_submission--general_newsletter'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 2fea988b-9655-464f-9a7a-74be329f0d68
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 2204eacd-d27b-4c59-9ea9-d079b0c325cf
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: 0434bbb1-125c-48a0-8d1c-502a7540a2e4
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: ad181f6c-3869-48a8-bca5-033af06abe98
+        weight: 0
+        action_id: rules_action_subscribe_user
+        context_values:
+          newsletterId: '13'
+        context_mapping:
+          entity: webform_submission
+        context_processors:
+          newsletterId:
+            rules_tokens: {  }
+        provides_mapping: {  }

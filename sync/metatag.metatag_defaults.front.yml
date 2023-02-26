@@ -1,0 +1,13 @@
+uuid: fd416322-ba95-47e3-a7e8-74b85c94c07b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  title: 'Latest jobs and tenders'
+  shortlink: '[site:url]'
+  description: 'Job in Rwanda website provides an easy and optimal way of adverting your job vacancies to have high quality of applications and increase the chances to find the right candidate. '
+  canonical_url: '[site:url]'

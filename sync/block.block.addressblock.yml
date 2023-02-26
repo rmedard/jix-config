@@ -1,0 +1,20 @@
+uuid: 6439c26b-8112-40c0-bf5e-e95fa3bc55dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+  theme:
+    - jix_core_theme
+id: addressblock
+theme: jix_core_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: address_block
+settings:
+  id: address_block
+  label: 'Address block'
+  label_display: '0'
+  provider: jix_interface
+visibility: {  }

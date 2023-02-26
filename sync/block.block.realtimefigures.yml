@@ -1,0 +1,20 @@
+uuid: 4e3938ba-fc02-4350-ad71-2fd92f8efb5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+  theme:
+    - jix_core_theme
+id: realtimefigures
+theme: jix_core_theme
+region: footer_fourth
+weight: 0
+provider: null
+plugin: jix_realtime_stats
+settings:
+  id: jix_realtime_stats
+  label: 'Realtime figures'
+  label_display: '0'
+  provider: jix_interface
+visibility: {  }

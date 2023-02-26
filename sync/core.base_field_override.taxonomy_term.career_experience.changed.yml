@@ -1,0 +1,18 @@
+uuid: 4b6b8da7-6636-4937-8a52-b48d02384a3c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.career_experience
+id: taxonomy_term.career_experience.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: career_experience
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

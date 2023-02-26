@@ -1,0 +1,20 @@
+description: Temoignages
+display:
+  default:
+    display_options:
+      title: Temoignages
+  page_testimonials:
+    display_title: 'Gestion des temoignages'
+    display_options:
+      menu:
+        title: Temoignages
+      header:
+        area:
+          content:
+            value: "<p><a aria-disabled=\"true\" class=\"btn btn-outline-primary btn-sm mb-2\" href=\"/node/add/testimonial\" role=\"button\">Donner votre temoignage</a></p>\r\n"
+            format: full_html
+  page_testimonials_management:
+    display_title: 'Gestion des temoignages'
+    display_options:
+      menu:
+        title: 'Gestion des temoignages'

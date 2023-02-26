@@ -1,0 +1,19 @@
+uuid: cd7f1baf-1345-4f3a-8887-2ddc3b85ad31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_application_email
+    - node.type.job
+id: node.job.field_job_application_email
+field_name: field_job_application_email
+entity_type: node
+bundle: job
+label: 'Email where to send applications'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

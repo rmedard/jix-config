@@ -1,0 +1,20 @@
+uuid: bec67683-276d-4dd8-be23-43d1fedc5259
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.faq
+  module:
+    - path
+id: node.faq.path
+field_name: path
+entity_type: node
+bundle: faq
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

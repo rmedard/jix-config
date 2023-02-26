@@ -1,0 +1,23 @@
+uuid: 435948fd-7952-4bdd-a01c-d8bd1421905e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_old_nid
+    - node.type.job
+id: node.job.field_job_old_nid
+field_name: field_job_old_nid
+entity_type: node
+bundle: job
+label: old_nid
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

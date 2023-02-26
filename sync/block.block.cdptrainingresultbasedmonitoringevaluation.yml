@@ -1,0 +1,30 @@
+uuid: dc3cb532-e5be-4799-b040-d5ab3700e7d9
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:6a16b648-2226-418d-ba24-550a28230aad'
+  module:
+    - block_content
+    - system
+  theme:
+    - jix_core_theme
+id: cdptrainingresultbasedmonitoringevaluation
+theme: jix_core_theme
+region: sidebar_second
+weight: -18
+provider: null
+plugin: 'block_content:6a16b648-2226-418d-ba24-550a28230aad'
+settings:
+  id: 'block_content:6a16b648-2226-418d-ba24-550a28230aad'
+  label: 'CDP Training Result Based Monitoring & Evaluation'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

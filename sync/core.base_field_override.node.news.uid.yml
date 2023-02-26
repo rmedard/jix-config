@@ -1,0 +1,20 @@
+uuid: 8559c75f-2425-4443-9b39-d1c3812cb28b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.uid
+field_name: uid
+entity_type: node
+bundle: news
+label: 'Écrit par'
+description: 'Le nom d''utilisateur de l''auteur du contenu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,46 @@
+uuid: d04c49f4-0060-4785-bab2-a32a8bf9e76c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_attachment
+    - node.type.job
+  module:
+    - file
+    - filefield_paths
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: job_description_files
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    file_name:
+      value: '[file:ffp-name-only-original][random:hash:md5].[file:ffp-extension-original]'
+      options:
+        slashes: true
+        pathauto: true
+        transliterate: false
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+id: node.job.field_job_attachment
+field_name: field_job_attachment
+entity_type: node
+bundle: job
+label: Attachment
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf doc docx xls xlsx'
+  max_filesize: '2 MB'
+  description_field: false
+field_type: file

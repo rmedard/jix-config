@@ -1,0 +1,16 @@
+settings:
+  allowed_values:
+    1:
+      label: Temps-plein
+    2:
+      label: Mi-temps
+    3:
+      label: Contrat
+    4:
+      label: Temporaire
+    5:
+      label: Stage
+    6:
+      label: 'Appel d''offres'
+    7:
+      label: Autre

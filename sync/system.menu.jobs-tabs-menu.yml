@@ -1,0 +1,8 @@
+uuid: 75b2d479-f444-416a-8e30-59df3d288c8d
+langcode: en
+status: true
+dependencies: {  }
+id: jobs-tabs-menu
+label: 'Jobs Tabs Menu'
+description: ''
+locked: false

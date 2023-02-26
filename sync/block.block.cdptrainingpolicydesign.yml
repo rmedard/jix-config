@@ -1,0 +1,25 @@
+uuid: ebeca311-e674-4668-8241-998ec0bb9bc3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:19d690b0-552c-465b-be68-5ecfae351d9d'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: cdptrainingpolicydesign
+theme: jix_core_theme
+region: sidebar_second
+weight: -15
+provider: null
+plugin: 'block_content:19d690b0-552c-465b-be68-5ecfae351d9d'
+settings:
+  id: 'block_content:19d690b0-552c-465b-be68-5ecfae351d9d'
+  label: 'CDP Training Policy Design'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

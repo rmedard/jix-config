@@ -1,0 +1,18 @@
+uuid: 8726b123-8876-48ec-af3d-37cc4ffc6097
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+id: node.pricing_plan.title
+field_name: title
+entity_type: node
+bundle: pricing_plan
+label: Titre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

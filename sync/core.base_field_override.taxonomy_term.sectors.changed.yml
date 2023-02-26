@@ -1,0 +1,18 @@
+uuid: 540bc697-10bb-4375-b861-49424f2b4919
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sectors
+id: taxonomy_term.sectors.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: sectors
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

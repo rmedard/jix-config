@@ -1,0 +1,23 @@
+uuid: b9870f0e-e409-433d-a9d0-7c6f79a29784
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+    - field.storage.block_content.field_banner_image_location
+  module:
+    - link
+id: block_content.banner_block.field_banner_image_location
+field_name: field_banner_image_location
+entity_type: block_content
+bundle: banner_block
+label: 'Banner image location'
+description: 'External link to the banner image'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

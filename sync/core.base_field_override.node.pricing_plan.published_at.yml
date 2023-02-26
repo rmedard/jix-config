@@ -1,0 +1,20 @@
+uuid: f4ce255c-03ff-4a1d-8556-50df041d41b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+  module:
+    - publication_date
+id: node.pricing_plan.published_at
+field_name: published_at
+entity_type: node
+bundle: pricing_plan
+label: 'Publié le'
+description: 'Keep the publication timestamp for each node.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: published_at

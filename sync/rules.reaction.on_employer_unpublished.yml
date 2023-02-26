@@ -1,0 +1,58 @@
+uuid: 1e8679d3-f6ca-4b32-924f-3d82c592e54e
+langcode: en
+status: true
+dependencies: {  }
+id: on_employer_unpublished
+label: 'On employer unpublished'
+events:
+  -
+    event_name: 'rules_entity_update:node--employer'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 0681b80a-a557-41a7-80e1-baf8134b7a70
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 16114937-3e04-4e99-b6fb-ee6712f7a9c8
+    weight: 0
+    conditions:
+      -
+        id: rules_condition
+        uuid: cf1f6680-a3c9-4501-8493-715072831d36
+        weight: 0
+        condition_id: rules_node_is_published
+        negate: false
+        context_values: {  }
+        context_mapping:
+          node: node_unchanged
+        context_processors: {  }
+        provides_mapping: {  }
+      -
+        id: rules_condition
+        uuid: 2df11d22-cd88-4405-9165-7e22010d09f8
+        weight: 0
+        condition_id: rules_node_is_published
+        negate: true
+        context_values: {  }
+        context_mapping:
+          node: node
+        context_processors: {  }
+        provides_mapping: {  }
+  actions:
+    id: rules_action_set
+    uuid: 70d79fae-8049-48f6-87d0-1e50955025a7
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: 942940eb-ca48-4589-86a0-72167b9b642e
+        weight: 0
+        action_id: rules_action_unpublish_jobs_employer_unpub
+        context_values: {  }
+        context_mapping:
+          entity: node
+        context_processors: {  }
+        provides_mapping: {  }

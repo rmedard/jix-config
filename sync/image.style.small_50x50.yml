@@ -1,0 +1,15 @@
+uuid: 58ad309c-0cb9-42ee-8afc-eec185fadc97
+langcode: en
+status: true
+dependencies: {  }
+name: small_50x50
+label: 'Small 50x50'
+effects:
+  c7810603-577e-4475-85a5-40fc3c1d9c18:
+    uuid: c7810603-577e-4475-85a5-40fc3c1d9c18
+    id: image_scale
+    weight: 2
+    data:
+      width: 50
+      height: null
+      upscale: true

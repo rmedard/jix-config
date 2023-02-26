@@ -1,0 +1,22 @@
+uuid: 60d965c6-9b3d-435e-8a6e-5ecf9574f7b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employer
+id: node.employer.status
+field_name: status
+entity_type: node
+bundle: employer
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,42 @@
+uuid: a815f89b-dd9c-40fa-bc7f-f576b4471e18
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.employer
+    - node.type.job
+    - node.type.testimonial
+  module:
+    - comment
+    - contact
+    - field_permissions
+    - filter
+    - fivestar
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create employer content'
+  - 'create field_job_contact_phone'
+  - 'create job content'
+  - 'create testimonial content'
+  - 'rate content'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view field_job_posting_plan'
+  - 'view field_pricing_plan_advantage'
+  - 'view field_pricing_plan_pricing'

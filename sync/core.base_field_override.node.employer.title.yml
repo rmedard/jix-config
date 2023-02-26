@@ -1,0 +1,18 @@
+uuid: 1b2263e8-6c51-40bd-8643-798fb791b949
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employer
+id: node.employer.title
+field_name: title
+entity_type: node
+bundle: employer
+label: 'Company name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

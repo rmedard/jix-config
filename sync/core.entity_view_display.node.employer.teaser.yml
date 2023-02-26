@@ -1,0 +1,70 @@
+uuid: ed10f5e9-7872-49ec-9910-f903627a09d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employer.field_employer_client_reference
+    - field.field.node.employer.field_employer_email
+    - field.field.node.employer.field_employer_facebook
+    - field.field.node.employer.field_employer_featured
+    - field.field.node.employer.field_employer_invoicing_policy
+    - field.field.node.employer.field_employer_linkedin
+    - field.field.node.employer.field_employer_logo
+    - field.field.node.employer.field_employer_public_service
+    - field.field.node.employer.field_employer_rating
+    - field.field.node.employer.field_employer_sector
+    - field.field.node.employer.field_employer_sent2dwh
+    - field.field.node.employer.field_employer_summary
+    - field.field.node.employer.field_employer_telephone
+    - field.field.node.employer.field_employer_tin_number
+    - field.field.node.employer.field_employer_twitter
+    - field.field.node.employer.field_employer_website
+    - image.style.jobs_list_logo
+    - node.type.employer
+  module:
+    - fivestar
+    - image
+    - user
+id: node.employer.teaser
+targetEntityType: node
+bundle: employer
+mode: teaser
+content:
+  field_employer_logo:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: jobs_list_logo
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_employer_rating:
+    type: fivestar_stars
+    label: hidden
+    settings:
+      text_format: average
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  field_employer_client_reference: true
+  field_employer_email: true
+  field_employer_facebook: true
+  field_employer_featured: true
+  field_employer_invoicing_policy: true
+  field_employer_linkedin: true
+  field_employer_public_service: true
+  field_employer_sector: true
+  field_employer_sent2dwh: true
+  field_employer_summary: true
+  field_employer_telephone: true
+  field_employer_tin_number: true
+  field_employer_twitter: true
+  field_employer_website: true
+  langcode: true
+  links: true
+  published_at: true

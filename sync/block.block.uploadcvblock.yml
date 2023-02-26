@@ -1,0 +1,20 @@
+uuid: 51289208-454d-47d1-88d6-dfe294ef36b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+  theme:
+    - jix_core_theme
+id: uploadcvblock
+theme: jix_core_theme
+region: jix_upload_cv
+weight: 0
+provider: null
+plugin: upload_cv_block
+settings:
+  id: upload_cv_block
+  label: 'Upload CV Block'
+  label_display: '0'
+  provider: jix_interface
+visibility: {  }

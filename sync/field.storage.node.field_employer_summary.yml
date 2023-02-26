@@ -1,0 +1,19 @@
+uuid: 402771fa-6b11-454b-8ddd-6551f95d74bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_employer_summary
+field_name: field_employer_summary
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

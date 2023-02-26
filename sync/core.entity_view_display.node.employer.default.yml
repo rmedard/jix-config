@@ -1,0 +1,57 @@
+uuid: dd9c2c1b-736f-43b9-95cc-12d9d622120f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employer.field_employer_client_reference
+    - field.field.node.employer.field_employer_email
+    - field.field.node.employer.field_employer_facebook
+    - field.field.node.employer.field_employer_featured
+    - field.field.node.employer.field_employer_invoicing_policy
+    - field.field.node.employer.field_employer_linkedin
+    - field.field.node.employer.field_employer_logo
+    - field.field.node.employer.field_employer_public_service
+    - field.field.node.employer.field_employer_rating
+    - field.field.node.employer.field_employer_sector
+    - field.field.node.employer.field_employer_sent2dwh
+    - field.field.node.employer.field_employer_summary
+    - field.field.node.employer.field_employer_telephone
+    - field.field.node.employer.field_employer_tin_number
+    - field.field.node.employer.field_employer_twitter
+    - field.field.node.employer.field_employer_website
+    - node.type.employer
+  module:
+    - options
+    - user
+id: node.employer.default
+targetEntityType: node
+bundle: employer
+mode: default
+content:
+  field_employer_invoicing_policy:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  field_employer_client_reference: true
+  field_employer_email: true
+  field_employer_facebook: true
+  field_employer_featured: true
+  field_employer_linkedin: true
+  field_employer_logo: true
+  field_employer_public_service: true
+  field_employer_rating: true
+  field_employer_sector: true
+  field_employer_sent2dwh: true
+  field_employer_summary: true
+  field_employer_telephone: true
+  field_employer_tin_number: true
+  field_employer_twitter: true
+  field_employer_website: true
+  langcode: true
+  links: true
+  published_at: true

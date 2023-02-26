@@ -1,0 +1,12 @@
+number_daily_jobs: '2'
+mtarget_ftp_host: ftp.mtarget.fr
+mtarget_ftp_port: 21
+mtarget_ftp_username: jobinburundi
+mtarget_ftp_password: klfm5263
+ftp_protocol: ftp
+ftp_host: ftp.mtarget.fr
+ftp_port: 21
+ftp_username: jobinburundi
+ftp_password: klfm5263
+ftp_directory: /test
+filename_format: 'JOBIN_RWA_[deadline]_[publishedOn]_[jobIdentifier].txt'

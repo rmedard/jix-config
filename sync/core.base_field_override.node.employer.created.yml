@@ -1,0 +1,18 @@
+uuid: 5fe6756b-0707-4bd2-947d-624f5ea4d8db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.employer
+id: node.employer.created
+field_name: created
+entity_type: node
+bundle: employer
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

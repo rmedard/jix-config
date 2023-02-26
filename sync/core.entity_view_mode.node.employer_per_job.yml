@@ -1,0 +1,10 @@
+uuid: 2da0b8e0-4460-4711-8707-a8b917619a82
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.employer_per_job
+label: 'Employer Per Job'
+targetEntityType: node
+cache: true

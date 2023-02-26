@@ -1,0 +1,20 @@
+uuid: 93f1e6ac-12dd-40b4-94ff-00d486efc762
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.career_experience
+  module:
+    - text
+id: taxonomy_term.career_experience.description
+field_name: description
+entity_type: taxonomy_term
+bundle: career_experience
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,125 @@
+uuid: cf1f5245-4f3d-4093-8be3-f3b4f8096abe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - webform.webform.default_job_application_form
+id: webform_submission--default_job_application_form
+disabled: false
+path: job_applications
+resourceType: job_applications
+resourceFields:
+  serial:
+    disabled: false
+    fieldName: serial
+    publicName: serial
+    enhancer:
+      id: ''
+  sid:
+    disabled: false
+    fieldName: sid
+    publicName: sid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  token:
+    disabled: false
+    fieldName: token
+    publicName: token
+    enhancer:
+      id: ''
+  uri:
+    disabled: false
+    fieldName: uri
+    publicName: uri
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  completed:
+    disabled: false
+    fieldName: completed
+    publicName: completed
+    enhancer:
+      id: ''
+  changed:
+    disabled: true
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  in_draft:
+    disabled: true
+    fieldName: in_draft
+    publicName: in_draft
+    enhancer:
+      id: ''
+  current_page:
+    disabled: true
+    fieldName: current_page
+    publicName: current_page
+    enhancer:
+      id: ''
+  remote_addr:
+    disabled: true
+    fieldName: remote_addr
+    publicName: remote_addr
+    enhancer:
+      id: ''
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  webform_id:
+    disabled: false
+    fieldName: webform_id
+    publicName: webform_id
+    enhancer:
+      id: ''
+  entity_type:
+    disabled: false
+    fieldName: entity_type
+    publicName: entity_type
+    enhancer:
+      id: ''
+  entity_id:
+    disabled: false
+    fieldName: entity_id
+    publicName: entity_id
+    enhancer:
+      id: ''
+  locked:
+    disabled: true
+    fieldName: locked
+    publicName: locked
+    enhancer:
+      id: ''
+  sticky:
+    disabled: true
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+  notes:
+    disabled: true
+    fieldName: notes
+    publicName: notes
+    enhancer:
+      id: ''

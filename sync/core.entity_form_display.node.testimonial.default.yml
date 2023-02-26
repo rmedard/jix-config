@@ -1,0 +1,85 @@
+uuid: dbb10465-fa19-46e0-94a1-72b3a8ee558d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testimonial.field_testimonial_email
+    - field.field.node.testimonial.field_testimonial_message
+    - field.field.node.testimonial.field_testimonial_names
+    - field.field.node.testimonial.field_testimonial_photo
+    - field.field.node.testimonial.field_testimonial_rate
+    - image.style.thumbnail
+    - node.type.testimonial
+  module:
+    - fivestar
+    - image
+    - text
+id: node.testimonial.default
+targetEntityType: node
+bundle: testimonial
+mode: default
+content:
+  field_testimonial_email:
+    type: email_default
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_testimonial_message:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_testimonial_names:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_testimonial_photo:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_testimonial_rate:
+    type: fivestar_stars
+    weight: 5
+    region: content
+    settings:
+      text_format: none
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  published_at: true
+  sticky: true
+  uid: true

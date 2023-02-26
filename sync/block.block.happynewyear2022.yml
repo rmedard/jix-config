@@ -1,0 +1,25 @@
+uuid: 0455a36c-a9f2-4be1-9c7b-fc131efb1325
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_block:0973f7ec-16fe-4d4b-8981-b4612961778c'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: happynewyear2022
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -19
+provider: null
+plugin: 'block_content:0973f7ec-16fe-4d4b-8981-b4612961778c'
+settings:
+  id: 'block_content:0973f7ec-16fe-4d4b-8981-b4612961778c'
+  label: 'Happy New Year 2022'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

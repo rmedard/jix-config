@@ -1,0 +1,50 @@
+uuid: ab2d87e7-93f4-43e6-9f27-5be73f07a4f1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.employer
+    - node.type.job
+    - node.type.testimonial
+  module:
+    - comment
+    - contact
+    - field_permissions
+    - filter
+    - fivestar
+    - fontawesome
+    - google_analytics
+    - node
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access fontawesome additional settings'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create employer content'
+  - 'create field_job_contact_phone'
+  - 'create job content'
+  - 'create testimonial content'
+  - 'opt-in or out of google analytics tracking'
+  - 'post comments'
+  - 'rate content'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view field_job_posting_plan'
+  - 'view field_pricing_plan_advantage'
+  - 'view field_pricing_plan_pricing'

@@ -1,0 +1,21 @@
+uuid: 0752afea-5fad-4614-8777-eb4388f582e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_summary
+    - node.type.employer
+  module:
+    - text
+id: node.employer.field_employer_summary
+field_name: field_employer_summary
+entity_type: node
+bundle: employer
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

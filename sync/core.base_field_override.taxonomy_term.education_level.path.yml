@@ -1,0 +1,20 @@
+uuid: bc9d9f47-f799-4f24-b4bc-7437ce27c2e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_level
+  module:
+    - path
+id: taxonomy_term.education_level.path
+field_name: path
+entity_type: taxonomy_term
+bundle: education_level
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

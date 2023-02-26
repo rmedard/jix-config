@@ -1,0 +1,10 @@
+settings:
+  allowed_values:
+    1:
+      label: 'Appel d''offre'
+    2:
+      label: Consultance
+    3:
+      label: Stage
+    4:
+      label: Autre

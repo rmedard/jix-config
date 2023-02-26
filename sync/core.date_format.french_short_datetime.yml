@@ -1,0 +1,8 @@
+uuid: 8f403aaf-991c-4504-9b2b-65a0cd1850d4
+langcode: en
+status: true
+dependencies: {  }
+id: french_short_datetime
+label: 'French Short Datetime'
+locked: false
+pattern: 'd-m-Y H:i'

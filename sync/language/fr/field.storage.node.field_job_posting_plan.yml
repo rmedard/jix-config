@@ -1,0 +1,8 @@
+settings:
+  allowed_values:
+    1:
+      label: 'A la une'
+    2:
+      label: 'A la une+'
+    3:
+      label: Présélection

@@ -1,0 +1,15 @@
+uuid: b839ad38-bf2c-4fa6-9e38-eacd9c2aab7a
+langcode: en
+status: true
+dependencies: {  }
+name: vertical_double_column_banner_style
+label: 'Vertical Double Column Banner Style'
+effects:
+  52d92289-75fa-4c01-80f6-4eb66f6e5937:
+    uuid: 52d92289-75fa-4c01-80f6-4eb66f6e5937
+    id: image_scale
+    weight: 1
+    data:
+      width: 360
+      height: null
+      upscale: true

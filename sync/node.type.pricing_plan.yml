@@ -1,0 +1,17 @@
+uuid: d80a057c-5cfc-4c64-a06e-90bb93639ab4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Pricing Plan'
+type: pricing_plan
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

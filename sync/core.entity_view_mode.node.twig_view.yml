@@ -1,0 +1,10 @@
+uuid: 3cc1d817-63c8-4dd1-b741-41c64b5b9416
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.twig_view
+label: 'Twig view'
+targetEntityType: node
+cache: true

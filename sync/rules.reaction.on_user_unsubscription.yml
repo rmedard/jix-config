@@ -1,0 +1,36 @@
+uuid: 2965598e-626c-45a3-b02f-61fb7dba8051
+langcode: en
+status: true
+dependencies: {  }
+id: on_user_unsubscription
+label: 'On user unsubscription'
+events:
+  -
+    event_name: 'rules_entity_delete:webform_submission--general_newsletter'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: e354ac2a-4a14-415a-b4d3-6bad47daad49
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 85ca823f-2d1a-464e-9aa3-4d1370bc2512
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: f67e5d60-4b8d-4c53-93a8-e68cc16d97f0
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: 2706d220-e0da-4c0d-a973-f10db71471dd
+        weight: 0
+        action_id: rules_action_unsubscribe_user
+        context_values: {  }
+        context_mapping:
+          entity: webform_submission
+        context_processors: {  }
+        provides_mapping: {  }

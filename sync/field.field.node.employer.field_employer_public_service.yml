@@ -1,0 +1,23 @@
+uuid: ffb809d2-a6f5-4c36-897b-1ea6e8a45dbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_public_service
+    - node.type.employer
+id: node.employer.field_employer_public_service
+field_name: field_employer_public_service
+entity_type: node
+bundle: employer
+label: 'Public service'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

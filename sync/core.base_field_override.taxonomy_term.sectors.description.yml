@@ -1,0 +1,20 @@
+uuid: 62327608-2d0e-4de6-a5de-1eebb5af3bdb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sectors
+  module:
+    - text
+id: taxonomy_term.sectors.description
+field_name: description
+entity_type: taxonomy_term
+bundle: sectors
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

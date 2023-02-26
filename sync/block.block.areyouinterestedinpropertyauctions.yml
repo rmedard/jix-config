@@ -1,0 +1,25 @@
+uuid: 5d26c4a4-1218-4360-9903-4debb57e2aee
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:0698dc52-9489-4f59-8740-2f93cb8ccb55'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: areyouinterestedinpropertyauctions
+theme: jix_core_theme
+region: sidebar_first
+weight: -18
+provider: null
+plugin: 'block_content:0698dc52-9489-4f59-8740-2f93cb8ccb55'
+settings:
+  id: 'block_content:0698dc52-9489-4f59-8740-2f93cb8ccb55'
+  label: 'Are you interested in property auctions?'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

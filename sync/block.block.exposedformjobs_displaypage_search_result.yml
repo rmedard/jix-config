@@ -1,0 +1,23 @@
+uuid: 789f6b8b-0391-40ad-9490-931d9e537cef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.jobs_display
+  module:
+    - views
+  theme:
+    - jix_core_theme
+id: exposedformjobs_displaypage_search_result
+theme: jix_core_theme
+region: jix_search_bar
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:jobs_display-page_search_result'
+settings:
+  id: 'views_exposed_filter_block:jobs_display-page_search_result'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility: {  }

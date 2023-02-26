@@ -1,0 +1,18 @@
+uuid: 1cc2be86-ffff-472e-a27f-3a2e4d7baec2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.career_experience
+id: taxonomy_term.career_experience.name
+field_name: name
+entity_type: taxonomy_term
+bundle: career_experience
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

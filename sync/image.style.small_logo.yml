@@ -1,0 +1,15 @@
+uuid: a522aa22-c671-4903-aca0-7be29e281f7e
+langcode: en
+status: true
+dependencies: {  }
+name: small_logo
+label: 'Small logo'
+effects:
+  0fc5a221-2c40-4dc7-b83d-a04f6c62fc07:
+    uuid: 0fc5a221-2c40-4dc7-b83d-a04f6c62fc07
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      anchor: center-center

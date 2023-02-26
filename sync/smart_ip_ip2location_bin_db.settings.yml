@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: rmUwDrJvqVBsbX9WZxNpXbyc3Nx_v-Wn2cJynbjZBbw
+langcode: fr
+version: lite
+edition: DB3
+token: ''
+db_auto_update: false
+caching_method: no_cache
+bin_file_custom_path: ''

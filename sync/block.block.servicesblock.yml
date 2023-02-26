@@ -1,0 +1,20 @@
+uuid: 258a762a-4464-485b-8b4f-b68bb0b98de2
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+  theme:
+    - jix_core_theme
+id: servicesblock
+theme: jix_core_theme
+region: footer_second
+weight: 0
+provider: null
+plugin: services_block
+settings:
+  id: services_block
+  label: 'Services block'
+  label_display: '0'
+  provider: jix_interface
+visibility: {  }

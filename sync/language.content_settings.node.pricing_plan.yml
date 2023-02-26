@@ -1,0 +1,18 @@
+uuid: 4667534b-4600-4650-ba64-81da25b70e2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.pricing_plan
+target_entity_type_id: node
+target_bundle: pricing_plan
+default_langcode: site_default
+language_alterable: false

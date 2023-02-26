@@ -1,0 +1,23 @@
+uuid: 2c5e8713-e03f-4df6-9e78-96ca8869ea99
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.faq.field_faq_answer
+    - field.field.node.faq.field_faq_category
+    - node.type.faq
+  module:
+    - user
+id: node.faq.full
+targetEntityType: node
+bundle: faq
+mode: full
+content: {  }
+hidden:
+  addtoany: true
+  field_faq_answer: true
+  field_faq_category: true
+  langcode: true
+  links: true
+  published_at: true

@@ -1,0 +1,29 @@
+uuid: 14011a71-3c7d-423c-a044-2e072a275773
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.jobs-tabs-menu
+  module:
+    - system
+  theme:
+    - jix_core_theme
+id: jobstabsmenu
+theme: jix_core_theme
+region: content
+weight: -8
+provider: null
+plugin: 'system_menu_block:jobs-tabs-menu'
+settings:
+  id: 'system_menu_block:jobs-tabs-menu'
+  label: 'Jobs Tabs Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/jobs/*\r\n<front>"

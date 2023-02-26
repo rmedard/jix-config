@@ -1,0 +1,36 @@
+uuid: a8a6f4bd-2575-43c5-b445-6fe036ebdb60
+langcode: en
+status: false
+dependencies: {  }
+id: on_job_creation
+label: 'On job creation'
+events:
+  -
+    event_name: 'rules_entity_insert:node--job'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 0846be63-d0b2-4c2f-95b0-d355538e7256
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 8cf76f47-e6d2-4eaf-bac6-8ffb409b3372
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: e9cdd00c-3c7f-4aef-b473-3b54fe7b27b1
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: cecf343c-edb1-443b-93f1-69e97bdea90e
+        weight: 0
+        action_id: rules_action_on_job_creation_action
+        context_values: {  }
+        context_mapping:
+          entity: node
+        context_processors: {  }
+        provides_mapping: {  }

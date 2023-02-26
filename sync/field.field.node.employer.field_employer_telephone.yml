@@ -1,0 +1,21 @@
+uuid: d9d257ed-a5cb-486c-904b-600201eedf77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_telephone
+    - node.type.employer
+  module:
+    - telephone
+id: node.employer.field_employer_telephone
+field_name: field_employer_telephone
+entity_type: node
+bundle: employer
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

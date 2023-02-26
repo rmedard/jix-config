@@ -1,0 +1,18 @@
+uuid: abd0b460-7375-46eb-aeb0-4465fd6a75a3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.title
+field_name: title
+entity_type: node
+bundle: testimonial
+label: Titre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

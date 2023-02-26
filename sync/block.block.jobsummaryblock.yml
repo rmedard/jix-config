@@ -1,0 +1,28 @@
+uuid: e756b5b6-a741-40b8-b8c7-73eb3f9758a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+    - node
+  theme:
+    - jix_core_theme
+id: jobsummaryblock
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -16
+provider: null
+plugin: job_summary_block
+settings:
+  id: job_summary_block
+  label: 'Job Summary Block'
+  label_display: '0'
+  provider: jix_interface
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      job: job

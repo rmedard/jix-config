@@ -1,0 +1,25 @@
+uuid: cee79391-6f74-48ce-b644-f79280017e77
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_block:679b7103-0712-4acf-a8ef-7c0376ef13fd'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: sicodoopartnership
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -20
+provider: null
+plugin: 'block_content:679b7103-0712-4acf-a8ef-7c0376ef13fd'
+settings:
+  id: 'block_content:679b7103-0712-4acf-a8ef-7c0376ef13fd'
+  label: 'SIC Odoo Partnership'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

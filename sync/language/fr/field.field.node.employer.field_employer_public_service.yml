@@ -1,0 +1,4 @@
+label: 'Service publique'
+settings:
+  on_label: Oui
+  off_label: Non

@@ -1,0 +1,20 @@
+uuid: 0dae6130-d522-4405-8a10-e92236993b65
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+  module:
+    - path
+id: node.pricing_plan.path
+field_name: path
+entity_type: node
+bundle: pricing_plan
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

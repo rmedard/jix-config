@@ -1,0 +1,22 @@
+uuid: 615cb5cc-a648-4b56-89ab-f8ef54f67cc8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.career_experience
+id: taxonomy_term.career_experience.status
+field_name: status
+entity_type: taxonomy_term
+bundle: career_experience
+label: Publié
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

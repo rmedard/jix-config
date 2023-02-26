@@ -1,0 +1,21 @@
+uuid: fc8f9369-f594-4606-8a95-50bfb9930493
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_invoicing_policy
+    - node.type.employer
+  module:
+    - options
+id: node.employer.field_employer_invoicing_policy
+field_name: field_employer_invoicing_policy
+entity_type: node
+bundle: employer
+label: 'Invoicing policy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

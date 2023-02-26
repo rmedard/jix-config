@@ -1,0 +1,20 @@
+uuid: 4a195b27-3113-4ae3-893b-fb93fab3f7c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - jix_interface
+  theme:
+    - jix_core_theme
+id: socialmediabuttonsblock
+theme: jix_core_theme
+region: footer_social
+weight: 0
+provider: null
+plugin: social_media_buttons_block
+settings:
+  id: social_media_buttons_block
+  label: 'Social Media Buttons Block'
+  label_display: '0'
+  provider: jix_interface
+visibility: {  }

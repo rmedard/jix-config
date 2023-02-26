@@ -1,0 +1,28 @@
+uuid: 10665a2d-0a00-43fb-aa72-69ef9a76e24c
+langcode: en
+status: true
+dependencies:
+  module:
+    - adsense
+  theme:
+    - jix_core_theme
+id: managedad
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -17
+provider: null
+plugin: adsense_managed_ad_block
+settings:
+  id: adsense_managed_ad_block
+  label: 'Managed ad'
+  label_display: '0'
+  provider: adsense
+  ad_slot: '5254503023'
+  ad_format: responsive
+  ad_width: null
+  ad_height: null
+  ad_shape:
+    rectangle: rectangle
+  ad_align: center
+  ad_layout_key: ''
+visibility: {  }

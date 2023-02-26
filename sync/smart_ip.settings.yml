@@ -1,0 +1,27 @@
+_core:
+  default_config_hash: shw4iv2Lr5GoD_YlLlPuo621mnZN7b4SZJVcphJ-G54
+langcode: fr
+data_source: ip2location_bin_db
+roles_to_geolocate:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: '0'
+  site_manager: '0'
+  validator: '0'
+save_user_location_creation: true
+roles_in_debug_mode:
+  anonymous: false
+  authenticated: false
+  administrator: false
+  site_manager: false
+  validator: false
+roles_in_debug_mode_ip:
+  anonymous: ''
+  authenticated: ''
+  administrator: ''
+  site_manager: ''
+  validator: ''
+allowed_pages: ''
+excluded_ips: ''
+eu_visitor_dont_save: false
+timezone_format: identifier

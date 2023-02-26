@@ -1,0 +1,119 @@
+uuid: 87f15522-9823-4091-b2f1-59c629173c5b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+id: block_content--banner_block
+disabled: true
+path: block_content/banner_block
+resourceType: block_content--banner_block
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  revision_id:
+    disabled: false
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  revision_created:
+    disabled: false
+    fieldName: revision_created
+    publicName: revision_created
+    enhancer:
+      id: ''
+  revision_user:
+    disabled: false
+    fieldName: revision_user
+    publicName: revision_user
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: false
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  info:
+    disabled: false
+    fieldName: info
+    publicName: info
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  reusable:
+    disabled: false
+    fieldName: reusable
+    publicName: reusable
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: false
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: false
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: false
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  field_banner_img:
+    disabled: false
+    fieldName: field_banner_img
+    publicName: field_banner_img
+    enhancer:
+      id: ''
+  field_banner_type:
+    disabled: false
+    fieldName: field_banner_type
+    publicName: field_banner_type
+    enhancer:
+      id: ''
+  field_banner_url:
+    disabled: false
+    fieldName: field_banner_url
+    publicName: field_banner_url
+    enhancer:
+      id: ''

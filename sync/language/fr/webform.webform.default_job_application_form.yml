@@ -1,0 +1,40 @@
+elements: |
+  job_application_lastname:
+    '#title': Nom
+  job_application_firstname:
+    '#title': Prénom
+  job_application_email:
+    '#title': 'Adresse email'
+  job_application_telephone:
+    '#title': Téléphone
+  job_application_cv_resume_file:
+    '#title': 'Attacher votre CV'
+  job_application_other_files:
+    '#title': 'Attacher d''autres fichiers'
+  job_application_highest_degree:
+    '#title': Qualification
+  job_application_field_study:
+    '#title': Formation
+  job_application_nationality:
+    '#title': Nationalité
+  job_application_sex:
+    '#title': Sèxe
+  job_application_dob:
+    '#title': 'Date de naissance'
+  job_application_spoken_languages:
+    '#title': 'Langues parlées'
+    '#questions':
+      italian: Italien
+      german: Allemand
+      spanish: Espagnole
+      chinese: Chinois
+      french: Français
+      english: Anglais
+    '#answers':
+      none: Néant
+      basic: Basique
+      intermediary: Moyen
+      advanced: Avancé
+      fluent: Aisé
+  job_application_cover:
+    '#title': 'Lettre de motivation'

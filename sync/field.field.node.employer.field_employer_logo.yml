@@ -1,0 +1,57 @@
+uuid: 270af7a4-d606-44ba-abb2-b0ae59f794c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_logo
+    - node.type.employer
+  module:
+    - filefield_paths
+    - image
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: employer_logos
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    file_name:
+      value: 'logo_[random:number].[file:ffp-extension-original]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+id: node.employer.field_employer_logo
+field_name: field_employer_logo
+entity_type: node
+bundle: employer
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: e6ef1401-9391-47ae-bcb5-4713f93d9cf0
+    alt: ''
+    title: ''
+    width: 90
+    height: 90
+field_type: image

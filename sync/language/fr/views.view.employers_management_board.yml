@@ -1,0 +1,15 @@
+description: 'Panel de gestion des employeurs'
+display:
+  default:
+    display_options:
+      title: 'Panel de gestion des jobs'
+  page_all_amployers:
+    display_title: Employeur
+    display_options:
+      menu:
+        title: Employeurs
+  page_employers_management:
+    display_title: 'Gestion des employeurs'
+    display_options:
+      menu:
+        title: 'Gestion des employeurs'

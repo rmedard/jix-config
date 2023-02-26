@@ -1,0 +1,8 @@
+uuid: 3da183f3-8da3-4d0f-bd78-88ad51d1f8f2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Career experience'
+vid: career_experience
+description: ''
+weight: 0

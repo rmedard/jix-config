@@ -1,0 +1,14 @@
+uuid: 70be7509-228b-415a-b31b-51cf9f26e4f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.validator
+  module:
+    - user
+id: user_remove_role_action.validator
+label: 'Remove the Validator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: validator

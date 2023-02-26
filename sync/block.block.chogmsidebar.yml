@@ -1,0 +1,25 @@
+uuid: ec9bedcd-3900-4971-bdf2-222481227054
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:a433d384-94bf-4d19-822c-bfb2b70fdf82'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: chogmsidebar
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -11
+provider: null
+plugin: 'block_content:a433d384-94bf-4d19-822c-bfb2b70fdf82'
+settings:
+  id: 'block_content:a433d384-94bf-4d19-822c-bfb2b70fdf82'
+  label: 'CHOGM Side Bar'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

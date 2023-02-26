@@ -1,0 +1,49 @@
+uuid: ca3bc9e1-0c6a-4655-a1ec-5b4252175951
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_job_contract_type
+field_name: field_job_contract_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: freelance
+      label: Freelance
+    -
+      value: full_time
+      label: Full-time
+    -
+      value: part_time
+      label: Part-time
+    -
+      value: contract
+      label: Contract
+    -
+      value: temporary
+      label: Temporary
+    -
+      value: internship
+      label: Internship
+    -
+      value: tender
+      label: Tender
+    -
+      value: other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

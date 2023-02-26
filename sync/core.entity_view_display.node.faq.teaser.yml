@@ -1,0 +1,23 @@
+uuid: 3f35ec14-fd1c-44ff-9977-214193885248
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faq.field_faq_answer
+    - field.field.node.faq.field_faq_category
+    - node.type.faq
+  module:
+    - user
+id: node.faq.teaser
+targetEntityType: node
+bundle: faq
+mode: teaser
+content: {  }
+hidden:
+  addtoany: true
+  field_faq_answer: true
+  field_faq_category: true
+  langcode: true
+  links: true
+  published_at: true

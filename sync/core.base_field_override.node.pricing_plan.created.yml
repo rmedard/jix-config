@@ -1,0 +1,18 @@
+uuid: 67a2b959-4e93-4a5f-acba-0752d622e999
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pricing_plan
+id: node.pricing_plan.created
+field_name: created
+entity_type: node
+bundle: pricing_plan
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

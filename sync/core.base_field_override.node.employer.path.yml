@@ -1,0 +1,20 @@
+uuid: ec4cbae8-b221-4e58-8fbd-7eaf64319892
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.employer
+  module:
+    - path
+id: node.employer.path
+field_name: path
+entity_type: node
+bundle: employer
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

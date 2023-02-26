@@ -1,0 +1,29 @@
+uuid: b7060e50-984f-40a4-b013-70fbbd5470bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_desired_experience
+    - node.type.job
+    - taxonomy.vocabulary.career_experience
+id: node.job.field_job_desired_experience
+field_name: field_job_desired_experience
+entity_type: node
+bundle: job
+label: 'Desired experience'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      career_experience: career_experience
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

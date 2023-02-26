@@ -1,0 +1,19 @@
+uuid: c3bea67a-029b-4f98-9601-6814320f4613
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimonial_email
+    - node.type.testimonial
+id: node.testimonial.field_testimonial_email
+field_name: field_testimonial_email
+entity_type: node
+bundle: testimonial
+label: 'Email (will not be displayed)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

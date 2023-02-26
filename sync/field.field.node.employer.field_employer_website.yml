@@ -1,0 +1,23 @@
+uuid: 48f2224d-4ebf-4641-9ec9-f9a1eac7300f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employer_website
+    - node.type.employer
+  module:
+    - link
+id: node.employer.field_employer_website
+field_name: field_employer_website
+entity_type: node
+bundle: employer
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

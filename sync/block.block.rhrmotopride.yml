@@ -1,0 +1,25 @@
+uuid: 59bb74aa-7f58-4d96-a59d-90872aa51ba3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:69b4b6d4-b54f-4bc8-87a1-0c4b5636d2b2'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: rhrmotopride
+theme: jix_core_theme
+region: jix_horizontal_sidebar
+weight: -13
+provider: null
+plugin: 'block_content:69b4b6d4-b54f-4bc8-87a1-0c4b5636d2b2'
+settings:
+  id: 'block_content:69b4b6d4-b54f-4bc8-87a1-0c4b5636d2b2'
+  label: 'RHRMO Top Ride'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

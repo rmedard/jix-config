@@ -1,0 +1,22 @@
+uuid: 0597e4dc-e95b-45ea-95ba-10ab28c8455e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - jix_core_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: jix_core_theme_help
+theme: jix_core_theme
+region: content
+weight: -10
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

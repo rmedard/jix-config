@@ -1,0 +1,23 @@
+uuid: ac6b200e-9c16-4b57-8ac4-db6f4a08081e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_super_featured
+    - node.type.job
+id: node.job.field_job_super_featured
+field_name: field_job_super_featured
+entity_type: node
+bundle: job
+label: 'Super featured'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Oui
+  off_label: Non
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 7aa609e4-7bb8-4699-970d-939cc68bc40a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_additional_email
+    - node.type.job
+id: node.job.field_job_additional_email
+field_name: field_job_additional_email
+entity_type: node
+bundle: job
+label: 'Additional email where to send applications (if any)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

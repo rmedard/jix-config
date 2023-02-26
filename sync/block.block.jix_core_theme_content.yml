@@ -1,0 +1,22 @@
+uuid: 7cd62512-37a3-47aa-960b-9f386868ab17
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jix_core_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: jix_core_theme_content
+theme: jix_core_theme
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

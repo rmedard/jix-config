@@ -1,0 +1,18 @@
+uuid: 433ac29e-9ece-4098-81ab-33280ad57e06
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_level
+id: taxonomy_term.education_level.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: education_level
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

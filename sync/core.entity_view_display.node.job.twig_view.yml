@@ -1,0 +1,254 @@
+uuid: 3112baa6-80e1-4185-aaf6-98e39e786785
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.twig_view
+    - field.field.node.job.field_job_additional_email
+    - field.field.node.job.field_job_application_deadline
+    - field.field.node.job.field_job_application_email
+    - field.field.node.job.field_job_attachment
+    - field.field.node.job.field_job_category
+    - field.field.node.job.field_job_city
+    - field.field.node.job.field_job_contact_email
+    - field.field.node.job.field_job_contact_name
+    - field.field.node.job.field_job_contact_phone
+    - field.field.node.job.field_job_contract_type
+    - field.field.node.job.field_job_country
+    - field.field.node.job.field_job_creator_location
+    - field.field.node.job.field_job_desired_experience
+    - field.field.node.job.field_job_education_level
+    - field.field.node.job.field_job_employer
+    - field.field.node.job.field_job_ext_application_link
+    - field.field.node.job.field_job_full_description
+    - field.field.node.job.field_job_how_to_apply
+    - field.field.node.job.field_job_invoice_reference
+    - field.field.node.job.field_job_number_of_positions
+    - field.field.node.job.field_job_offer_type
+    - field.field.node.job.field_job_old_nid
+    - field.field.node.job.field_job_posting_plan
+    - field.field.node.job.field_job_repost_date
+    - field.field.node.job.field_job_sent2dwh
+    - field.field.node.job.field_job_sent_in_sms
+    - field.field.node.job.field_job_super_featured
+    - node.type.job
+  module:
+    - country
+    - datetime
+    - file
+    - link
+    - options
+    - text
+    - user
+id: node.job.twig_view
+targetEntityType: node
+bundle: job
+mode: twig_view
+content:
+  field_job_additional_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_job_application_deadline:
+    type: datetime_custom
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'l, d/m/Y H:i'
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_job_application_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_job_attachment:
+    type: file_url_plain
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 121
+    region: content
+  field_job_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_job_city:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 116
+    region: content
+  field_job_contact_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_job_contact_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_job_contact_phone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_job_contract_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 118
+    region: content
+  field_job_country:
+    type: country_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 117
+    region: content
+  field_job_creator_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_job_desired_experience:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 124
+    region: content
+  field_job_education_level:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 125
+    region: content
+  field_job_ext_application_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_job_full_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_job_how_to_apply:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_job_number_of_positions:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_job_offer_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_job_old_nid:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 126
+    region: content
+  field_job_posting_plan:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_job_sent_in_sms:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 122
+    region: content
+  field_job_super_featured:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  published_at:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 123
+    region: content
+hidden:
+  addtoany: true
+  field_job_employer: true
+  field_job_invoice_reference: true
+  field_job_repost_date: true
+  field_job_sent2dwh: true
+  langcode: true

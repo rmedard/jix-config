@@ -1,0 +1,74 @@
+uuid: 7c377f87-9b38-44a8-9198-3100f11a3693
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.testimonial.field_testimonial_email
+    - field.field.node.testimonial.field_testimonial_message
+    - field.field.node.testimonial.field_testimonial_names
+    - field.field.node.testimonial.field_testimonial_photo
+    - field.field.node.testimonial.field_testimonial_rate
+    - image.style.small_50x50
+    - node.type.testimonial
+  module:
+    - fivestar
+    - image
+    - text
+    - user
+id: node.testimonial.full
+targetEntityType: node
+bundle: testimonial
+mode: full
+content:
+  field_testimonial_message:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_testimonial_names:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_testimonial_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: small_50x50
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_testimonial_rate:
+    type: fivestar_stars
+    label: hidden
+    settings:
+      text_format: average
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  published_at:
+    type: timestamp
+    label: hidden
+    settings:
+      date_format: long
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  addtoany: true
+  field_testimonial_email: true
+  langcode: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: f0745352-5b86-4651-9d50-127047ff0d2d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+id: block_content.banner_block.status
+field_name: status
+entity_type: block_content
+bundle: banner_block
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

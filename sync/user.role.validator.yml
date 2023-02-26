@@ -1,0 +1,66 @@
+uuid: c7c950fd-6585-40cd-b0c7-5e3fa5ce580f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employer
+    - node.type.job
+    - node.type.news
+  module:
+    - block
+    - contextual
+    - field_permissions
+    - jix_settings
+    - node
+    - system
+    - toolbar
+    - webform
+id: validator
+label: Validator
+weight: 4
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'administer blocks'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create field_employer_client_reference'
+  - 'create field_employer_invoicing_policy'
+  - 'create field_job_invoice_reference'
+  - 'create field_job_posting_plan'
+  - 'create field_job_repost_date'
+  - 'create field_job_super_featured'
+  - 'edit any employer content'
+  - 'edit any job content'
+  - 'edit any news content'
+  - 'edit field_employer_client_reference'
+  - 'edit field_employer_invoicing_policy'
+  - 'edit field_job_contact_phone'
+  - 'edit field_job_invoice_reference'
+  - 'edit field_job_posting_plan'
+  - 'edit field_job_repost_date'
+  - 'edit field_job_super_featured'
+  - 'edit own field_employer_client_reference'
+  - 'edit own field_employer_invoicing_policy'
+  - 'edit own field_job_contact_phone'
+  - 'edit own field_job_invoice_reference'
+  - 'edit own field_job_posting_plan'
+  - 'edit own field_job_repost_date'
+  - 'edit own field_job_super_featured'
+  - 'manage business data'
+  - 'view any webform submission'
+  - 'view field_employer_client_reference'
+  - 'view field_employer_invoicing_policy'
+  - 'view field_job_contact_phone'
+  - 'view field_job_invoice_reference'
+  - 'view field_job_repost_date'
+  - 'view field_job_super_featured'
+  - 'view own field_employer_client_reference'
+  - 'view own field_employer_invoicing_policy'
+  - 'view own field_job_contact_phone'
+  - 'view own field_job_invoice_reference'
+  - 'view own field_job_posting_plan'
+  - 'view own field_job_repost_date'
+  - 'view own field_job_super_featured'
+  - 'view the administration theme'

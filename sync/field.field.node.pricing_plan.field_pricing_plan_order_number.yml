@@ -1,0 +1,25 @@
+uuid: 6bdedaad-324e-41ee-bb2f-177e96154093
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pricing_plan_order_number
+    - node.type.pricing_plan
+id: node.pricing_plan.field_pricing_plan_order_number
+field_name: field_pricing_plan_order_number
+entity_type: node
+bundle: pricing_plan
+label: 'Order number'
+description: 'Number to specify where the plan appears in the list from left to right (1 to 4)'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: 4
+  prefix: ''
+  suffix: ''
+field_type: integer

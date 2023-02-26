@@ -1,0 +1,25 @@
+uuid: 141935c1-2c12-4ae5-8cfd-424e3badf6fe
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:1c5b521c-6429-47ac-a9d5-800b4ddb51b2'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: trainingculturalintelligence
+theme: jix_core_theme
+region: sidebar_second
+weight: -16
+provider: null
+plugin: 'block_content:1c5b521c-6429-47ac-a9d5-800b4ddb51b2'
+settings:
+  id: 'block_content:1c5b521c-6429-47ac-a9d5-800b4ddb51b2'
+  label: 'Training Cultural Intelligence'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

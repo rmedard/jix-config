@@ -1,0 +1,18 @@
+uuid: 8ab87b83-9c88-453f-ad12-6e8f18a0d458
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.career_experience
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.career_experience
+target_entity_type_id: taxonomy_term
+target_bundle: career_experience
+default_langcode: site_default
+language_alterable: true

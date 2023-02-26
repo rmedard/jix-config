@@ -1,0 +1,30 @@
+uuid: 4f61882b-a0ec-4c54-b927-23840e474ce8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ab15a2a1-28e7-4105-95cd-510de7290c2c'
+  module:
+    - block_content
+    - system
+  theme:
+    - jix_core_theme
+id: jiraddressmap
+theme: jix_core_theme
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:ab15a2a1-28e7-4105-95cd-510de7290c2c'
+settings:
+  id: 'block_content:ab15a2a1-28e7-4105-95cd-510de7290c2c'
+  label: 'Jir Address Map'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

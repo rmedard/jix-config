@@ -1,0 +1,20 @@
+uuid: b60a795f-6648-489b-a601-1a67cfa84610
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.job
+  module:
+    - publication_date
+id: node.job.published_at
+field_name: published_at
+entity_type: node
+bundle: job
+label: 'Publié le'
+description: 'Keep the publication timestamp for each node.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: published_at

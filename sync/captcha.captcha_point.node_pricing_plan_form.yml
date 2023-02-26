@@ -1,0 +1,7 @@
+uuid: cc0dd08f-19ef-4f93-89a7-acec0438302c
+langcode: en
+status: false
+dependencies: {  }
+formId: node_pricing_plan_form
+captchaType: default
+label: node_pricing_plan_form

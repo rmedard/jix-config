@@ -1,0 +1,25 @@
+uuid: 136020c0-97a0-45da-ba38-cd35f24cd92a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:banner_block:7cea3113-b355-47a3-829e-40ea8b9340e9'
+  module:
+    - block_content
+  theme:
+    - jix_core_theme
+id: lookingfortalentedcandidate
+theme: jix_core_theme
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'block_content:7cea3113-b355-47a3-829e-40ea8b9340e9'
+settings:
+  id: 'block_content:7cea3113-b355-47a3-829e-40ea8b9340e9'
+  label: 'Looking for talented candidate?'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
